@@ -17,6 +17,13 @@ const Loading = ({ color, text }: PropsType) => {
 
 export default Loading;
 
+/** Loading component default props value */
+Loading.defaultProps = {
+  color: '#2196f3',
+  text: 'Loading...',
+};
+
+/** style */
 const LoadingContainer = styled.div`
   width: 180px;
   height: 180px;
